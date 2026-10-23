@@ -1,0 +1,5 @@
+.env
+*.tmp
+monitor.log
+__pycache__/
+.DS_Store

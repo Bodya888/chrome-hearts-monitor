@@ -1,0 +1,60 @@
+name: Chrome Hearts monitor
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"  # GitHub's minimum; real runs may lag a few minutes
+  workflow_dispatch:
+    inputs:
+      test_email:
+        description: "Send a test email instead of checking the site"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run monitor
+        env:
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          WATCH_PATHS: ${{ vars.WATCH_PATHS }}
+        run: |
+          if [ "${{ inputs.test_email }}" = "true" ]; then
+            python3 monitor.py --test-email
+          else
+            python3 monitor.py
+          fi
+
+      - name: Save state
+        if: ${{ inputs.test_email != true }}
+        run: |
+          git add state.json
+          if git diff --cached --quiet; then
+            echo "state unchanged"
+          else
+            git -c user.name="github-actions[bot]" \
+                -c user.email="41898099+github-actions[bot]@users.noreply.github.com" \
+                commit -m "Update state"
+            git pull --rebase -X theirs
+            git push
+          fi
+
+      # GitHub pauses scheduled workflows after 60 days without repo activity.
+      - name: Keep schedule alive
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable monitor.yml --repo "${{ github.repository }}"
