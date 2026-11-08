@@ -1,7 +1,7 @@
 {
  "homepage": {
   "featured": [],
-  "hash": "2efc74c8b47e77f1362bfe91b61fb7fef0c4f33e3785483eb566253754a7a8c2",
+  "hash": "1b670d3ef5d466848193d5f1d5b850b70a9550d47e6b418b1244ccf1c45c801a",
   "images": [],
   "links": [
    "/",
@@ -16,9 +16,7 @@
    "/login",
    "/magazine.html",
    "/privacy.html",
-   "/scarf",
    "/scents",
-   "/slippers",
    "/socks",
    "/terms.html"
   ],
@@ -48,7 +46,7 @@
   "on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=SWEATPANTS": "closed",
   "pants": "closed",
   "ppo": "closed",
-  "scarf": "open",
+  "scarf": "closed",
   "shirt": "closed",
   "shirts": "closed",
   "shoes": "closed",
@@ -433,6 +431,7 @@
   },
   "204651B2UMED07M": {
    "category": "slippers",
+   "hidden": true,
    "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw21039a32/img_products/hi-res/308204651B2UMED07M_0605.png?sw=1600&sh=2000",
    "name": "HOTEL SLIPPERS",
    "pid": "204651B2UMED07M",
@@ -442,6 +441,7 @@
   },
   "204651B2UXXX07M": {
    "category": "Slippers",
+   "hidden": true,
    "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw21039a32/img_products/hi-res/308204651B2UMED07M_0605.png?sw=800&sh=1000",
    "name": "HOTEL SLIPPERS",
    "pid": "204651B2UXXX07M",
@@ -523,6 +523,7 @@
   },
   "222575AEGXXX059": {
    "category": "scarf",
+   "hidden": true,
    "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwb91adadb/img_products/hi-res/315222575AEGXXX059_0131_1.png?sw=800&sh=1000",
    "name": "MATH PLUS SCARF",
    "pid": "222575AEGXXX059",
