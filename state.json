@@ -1,7 +1,7 @@
 {
  "homepage": {
   "featured": [],
-  "hash": "01f4ec88da84803a6a2b3a8d478151a5d7a7bcc383432aef94254e8dfc952fe8",
+  "hash": "1b670d3ef5d466848193d5f1d5b850b70a9550d47e6b418b1244ccf1c45c801a",
   "images": [],
   "links": [
    "/",
@@ -10,7 +10,6 @@
    "/cart",
    "/contact",
    "/disclosure.html",
-   "/eyewear",
    "/general.html",
    "/intimates",
    "/locations.html",
@@ -33,7 +32,7 @@
   "blanket": "closed",
   "boots": "closed",
   "denim": "closed",
-  "eyewear": "open",
+  "eyewear": "closed",
   "foti": "closed",
   "gloves": "closed",
   "hat": "closed",
@@ -148,7 +147,7 @@
    "name": "+33+ Eau de Parfum",
    "pid": "162006CRYXXX272",
    "price": "500.00",
-   "soldout": false,
+   "soldout": true,
    "url": "https://www.chromehearts.com/scents/33-eau-de-parfum/162006CRYXXX272.html"
   },
   "162008CRYXXX271": {
@@ -524,6 +523,7 @@
   },
   "21978827FE50010": {
    "category": "Eyewear",
+   "hidden": true,
    "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwfd89955b/img_products/hi-res/32421978827FE50010_0445.png?sw=800&sh=1000",
    "name": "MIO LORD",
    "pid": "21978827FE50010",
