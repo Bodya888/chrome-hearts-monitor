@@ -115,8 +115,18 @@
    "soldout": false,
    "url": "https://www.chromehearts.com/scents/33-incense-refill/151407XXXXXX169.html"
   },
+  "152701BLKLRG754": {
+   "category": "hoodie",
+   "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwb0a14ae6/img_products/hi-res/408152701BLKMED754​.png?sw=1600&sh=2000",
+   "name": "BLUE GLITTER HOODIE",
+   "pid": "152701BLKLRG754",
+   "price": "750.00",
+   "soldout": false,
+   "url": "https://www.chromehearts.com/hoodie/blue-glitter-hoodie/152701BLKXXX754.html?dwvar_152701BLKXXX754_size=LRG"
+  },
   "152701BLKXSM754": {
    "category": "hoodie",
+   "hidden": true,
    "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwb0a14ae6/img_products/hi-res/408152701BLKMED754​.png?sw=1600&sh=2000",
    "name": "BLUE GLITTER HOODIE",
    "pid": "152701BLKXSM754",
