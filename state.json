@@ -1,7 +1,7 @@
 {
  "homepage": {
   "featured": [],
-  "hash": "555de1537e4766414c900e9d0b86736f7c0d9a3a52628262c433a5e1a22d298f",
+  "hash": "1b670d3ef5d466848193d5f1d5b850b70a9550d47e6b418b1244ccf1c45c801a",
   "images": [],
   "links": [
    "/",
@@ -11,7 +11,6 @@
    "/contact",
    "/disclosure.html",
    "/general.html",
-   "/hoodie",
    "/intimates",
    "/locations.html",
    "/login",
@@ -38,7 +37,7 @@
   "gloves": "closed",
   "hat": "closed",
   "home": "closed",
-  "hoodie": "open",
+  "hoodie": "closed",
   "hoodie/1988-hoodie/152701BLKXXX762.html": "closed",
   "hoodies": "closed",
   "jacket": "closed",
@@ -117,6 +116,7 @@
   },
   "152701BLKLRG754": {
    "category": "hoodie",
+   "hidden": true,
    "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwb0a14ae6/img_products/hi-res/408152701BLKMED754​.png?sw=1600&sh=2000",
    "name": "BLUE GLITTER HOODIE",
    "pid": "152701BLKLRG754",
@@ -140,7 +140,7 @@
    "name": "BLUE GLITTER HOODIE",
    "pid": "152701BLKXXX754",
    "price": "750.00",
-   "soldout": false,
+   "soldout": true,
    "url": "https://www.chromehearts.com/hoodie/blue-glitter-hoodie/152701BLKXXX754.html"
   },
   "158552BLKXXXXXX": {
