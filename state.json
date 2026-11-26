@@ -177,7 +177,7 @@
    "name": "+33+ Eau de Parfum",
    "pid": "162006CRYXXX272",
    "price": "500.00",
-   "soldout": true,
+   "soldout": false,
    "url": "https://www.chromehearts.com/scents/33-eau-de-parfum/162006CRYXXX272.html"
   },
   "162008CRYXXX271": {
@@ -267,7 +267,7 @@
    "name": "TUMBLER",
    "pid": "174132CRYXXX015",
    "price": "2625.00",
-   "soldout": true,
+   "soldout": false,
    "url": "https://www.chromehearts.com/baccarat/tumbler/174132CRYXXX015.html"
   },
   "174310CRYXXX005": {
@@ -357,7 +357,7 @@
    "name": "WINE",
    "pid": "177733CRYXXX042",
    "price": "2200.00",
-   "soldout": true,
+   "soldout": false,
    "url": "https://www.chromehearts.com/baccarat/wine/177733CRYXXX042.html"
   },
   "177734CRYXXX042": {
